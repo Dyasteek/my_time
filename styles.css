@@ -26,10 +26,7 @@
 
 /* Body font */
 body {
-  background-size: cover;
-  background-image: url("../../../Pictures/20210812_172650.jpg");
   font-family: 'Montserrat', sans-serif;
-  background-color: #cccccc;
 }
 
 /* Existing styles for larger screens */
@@ -138,7 +135,7 @@ body {
 
 /* Glass Background */
 #season-container {
-  background: rgba(255, 255, 255, 0.337);
+  background: rgba(255, 255, 255, 0);
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -154,7 +151,7 @@ body {
 
 .tooltip {
   position: absolute;
-  background-color: #fff;
+  background-color: #ffffff00;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin: .5rem .5rem;
   padding: 0.5rem;
